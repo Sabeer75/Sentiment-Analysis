@@ -9,9 +9,9 @@ from nltk.corpus import movie_reviews
 nltk.download('movie_reviews')
 
 documents = [
-    (' '.join(movie_reviews.words(fileid)), category)  # Join words in files
-    for category in movie_reviews.categories()  # Loop through pos & neg categories
-    for fileid in movie_reviews.fileids(category)  # Loop through all files
+    (' '.join(movie_reviews.words(fileid)), category)  
+    for category in movie_reviews.categories()  
+    for fileid in movie_reviews.fileids(category)  
 ]
 
 df = pd.DataFrame(documents, columns=['review', 'sentiment'])
