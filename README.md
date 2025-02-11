@@ -1,10 +1,10 @@
-Sentiment Analysis Using Naive Bayes Classifier
+# Sentiment Analysis Using Naive Bayes Classifier
 
-Overview
+# Overview
 
 This project performs sentiment analysis on movie reviews using Natural Language Processing (NLP) techniques. It utilizes the **Naive Bayes (MultinomialNB) classifier from scikit-learn to classify movie reviews as either positive or negative.
 
-Features
+# Features
 
 Loads and processes the nltk movie reviews dataset.
 
@@ -18,7 +18,7 @@ Evaluates the model using accuracy and classification report.
 
 Provides a function to predict the sentiment of custom text input.
 
-Technologies Used
+# Technologies Used
 
 Python
 
